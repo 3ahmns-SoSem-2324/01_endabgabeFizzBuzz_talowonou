@@ -28,7 +28,7 @@ Bei Nutzung von Makey Makey:
 Anstatt der Pfeiltasten wird ein leitfähiges Material verwenden. Bei meinem Fall Gabeln.
 Somit wird jede einzelne Taste durch eine Gabel ersetzt, die durch Berührung ausgelöst wird.
 
-```mermaid
+
 classDiagram
     class Manager {
         TMP_Text Number
