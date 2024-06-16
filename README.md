@@ -28,7 +28,12 @@ Bei Nutzung von Makey Makey:
 Anstatt der Pfeiltasten wird ein leitfähiges Material verwenden. Bei meinem Fall Gabeln.
 Somit wird jede einzelne Taste durch eine Gabel ersetzt, die durch Berührung ausgelöst wird.
 
+Startszene
 
+Die Szene, die gestartet werden muss, enthält ein GameObject mit dem angehängten Manager-Skript sowie die entsprechenden UI-Elemente (Number, infoText, check) und das Hintergrund-Element (background).# 01_endabgabeFizzBuzz_talowonou
+
+
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet https://mermaid.live/ https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/
 classDiagram
     class Manager {
         TMP_Text Number
@@ -40,7 +45,3 @@ classDiagram
         Update() void
         GenerateRandomNumber(min int, max int) int
     }
-
-Startszene
-
-Die Szene, die gestartet werden muss, enthält ein GameObject mit dem angehängten Manager-Skript sowie die entsprechenden UI-Elemente (Number, infoText, check) und das Hintergrund-Element (background).# 01_endabgabeFizzBuzz_talowonou
