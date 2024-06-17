@@ -49,51 +49,38 @@ Startszene
 Die Szene, die gestartet werden muss, enthält ein GameObject mit dem angehängten Manager-Skript sowie die entsprechenden UI-Elemente (Number, infoText, check) und das Hintergrund-Element (background).# 01_endabgabeFizzBuzz_talowonou
 
 
+
+
+## UML-Diagramm
+
+Hier ist das UML-Diagramm für die `Manager`-Klasse:
+
 ```mermaid
-graph TD;
-    A(Start)
-    B(GenerateRandomNumber)
-    C(Update)
-    D(Space Key)
-    E(Left Arrow)
-    F(Up Arrow)
-    G(Right Arrow)
-    H(Down Arrow)
-    I(Debug.Log)
-    J(background.color)
-    K(check.text/infoText.text)
-    L(randomNum)
-    M(Number.text)
+classDiagram
+    class MonoBehaviour {
+    }
 
-    A --> L
-    A --> B
-    A --> J
-    A --> M
-    B --> L
-    C --> D
-    C --> E
-    C --> F
-    C --> G
-    C --> H
-    D --> L
-    D --> M
-    D --> J
-    D --> J
-    D --> K
-    E --> L
-    E --> I
-    E --> J
-    E --> K
-    F --> L
-    F --> I
-    F --> J
-    F --> K
-    G --> L
-    G --> I
-    G --> J
-    G --> K
-    H --> L
-    H --> I
-    H --> J
-    H --> K
+    class Manager {
+        +TMP_Text Number
+        +int randomNum
+        +SpriteRenderer background
+        +TMP_Text infoText
+        +TMP_Text check
+        +GenerateRandomNumber(int min, int max) int
+        +Start() void
+        +Update() void
+    }
 
+    MonoBehaviour <|-- Manager
+
+    class TMP_Text {
+    }
+
+    class SpriteRenderer {
+    }
+
+    Manager "1" --> "1" TMP_Text : Number
+    Manager "1" --> "1" int : randomNum
+    Manager "1" --> "1" SpriteRenderer : background
+    Manager "1" --> "1" TMP_Text : infoText
+    Manager "1" --> "1" TMP_Text : check
