@@ -28,6 +28,22 @@ Bei Nutzung von Makey Makey:
 Anstatt der Pfeiltasten wird ein leitfähiges Material verwenden. Bei meinem Fall Gabeln.
 Somit wird jede einzelne Taste durch eine Gabel ersetzt, die durch Berührung ausgelöst wird.
 
+Testergebnisse
+Drei Testpersonen im Alter von 14, 16 und 17 Jahren haben das Spiel getestet und ihr Feedback gegeben.
+Allgemeine Benutzerfreundlichkeit:
+Die Benutzeroberfläche wurde von den Testern als intuitiv bis mittel intuitiv bewertet. Während die Anweisungen und Hinweise im Spiel von den meisten als hilfreich bis sehr hilfreich empfunden wurden.
+Spielerlebnis:
+Das Spiel wurde allgemein als unterhaltsam empfunden. Die Herausforderung des Spiels wurde unterschiedlich wahrgenommen: ein Tester fand es einfach, während die anderen es als mittel bis herausfordernd beschrieben. Die Motivation, das Spiel wiederholt zu spielen, war bei den meisten Testern hoch, wobei ein Tester eine mittlere Motivation angab.
+Fehlerbehandlung und Feedback:
+Die Klarheit des Feedbacks im Spiel wurde von den Testern als klar bis sehr klar beschrieben.
+
+Verbesserungen und Vorschläge:
+Die Tester gaben mehrere Verbesserungsvorschläge:
+Mehr Schwierigkeit inform von mehr Teilbarkeitsregeln hinzufügen
+Besonders gut gefiel den Testern die Herausforderung und die klare, schnelle Rückmeldung des Spiels. Ein Tester lobte die App als großartige Übungsmöglichkeit für Mathematik.
+
+Zusammenfassend lässt sich sagen, dass das Spiel gut angenommen wurde, aber noch Potenzial für Verbesserungen hat.
+
 Startszene
 
 Die Szene, die gestartet werden muss, enthält ein GameObject mit dem angehängten Manager-Skript sowie die entsprechenden UI-Elemente (Number, infoText, check) und das Hintergrund-Element (background).# 01_endabgabeFizzBuzz_talowonou
