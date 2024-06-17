@@ -62,22 +62,12 @@ Die Szene, die gestartet werden muss, enthält ein GameObject mit dem angehängt
 Hier ist das UML-Diagramm für die `Manager`-Klasse:
 
 ```mermaid
+## UML-Diagramm
+
+Hier ist das UML-Diagramm für die `Manager`-Klasse:
+
+```mermaid
 classDiagram
-    class MonoBehaviour {
-    }
-
-    class Manager {
-        +TMP_Text Number
-        +int randomNum
-        +SpriteRenderer background
-        +TMP_Text infoText
-        +TMP_Text check
-        +GenerateRandomNumber(int min, int max) int
-        +Start() void
-        +Update() void
-    }
-
-   classDiagram
     class MonoBehaviour {
     }
 
@@ -98,17 +88,11 @@ classDiagram
     }
 
     class SpriteRenderer {
-    +Color color
+        +Color color
     }
 
-    Manager  -->  TMP_Text : Number
-    Manager  -->  int : randomNum
-    Manager  -->  SpriteRenderer : background
-    Manager  -->  TMP_Text : infoText
-    Manager  -->  TMP_Text : check
-
-    Manager  -->  TMP_Text : Number
-    Manager  -->  int : randomNum
-    Manager  -->  SpriteRenderer : background
-    Manager  -->  TMP_Text : infoText
-    Manager  -->  TMP_Text : check
+    Manager "1" --> "1" TMP_Text : Number
+    Manager "1" --> "1" int : randomNum
+    Manager "1" --> "1" SpriteRenderer : background
+    Manager "1" --> "1" TMP_Text : infoText
+    Manager "1" --> "1" TMP_Text : check
