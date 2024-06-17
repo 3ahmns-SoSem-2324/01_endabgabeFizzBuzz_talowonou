@@ -79,8 +79,8 @@ classDiagram
     class SpriteRenderer {
     }
 
-    Manager "1" --> "1" TMP_Text : Number
-    Manager "1" --> "1" int : randomNum
-    Manager "1" --> "1" SpriteRenderer : background
-    Manager "1" --> "1" TMP_Text : infoText
-    Manager "1" --> "1" TMP_Text : check
+    Manager  -->  TMP_Text : Number
+    Manager  -->  int : randomNum
+    Manager  -->  SpriteRenderer : background
+    Manager  -->  TMP_Text : infoText
+    Manager  -->  TMP_Text : check
