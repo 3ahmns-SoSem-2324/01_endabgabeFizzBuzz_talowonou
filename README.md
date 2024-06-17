@@ -1,4 +1,4 @@
-Spielbeschreibung
+#Spielbeschreibung
 Dieses Spiel basiert auf dem bekannten Kinderreim-Spiel "FizzBuzz". Ziel des Spiels ist es, herauszufinden, ob eine zufällig generierte Zahl durch 3, 5, sowohl 3 als auch 5, oder weder 3 noch 5 teilbar ist. Spieler interagieren mit dem Spiel über die Tastatur oder Makey Makey, um ihre Antworten einzugeben.
 
 Spielziel
