@@ -77,6 +77,21 @@ classDiagram
         +Update() void
     }
 
+   classDiagram
+    class MonoBehaviour {
+    }
+
+    class Manager {
+        +TMP_Text Number
+        +int randomNum
+        +SpriteRenderer background
+        +TMP_Text infoText
+        +TMP_Text check
+        +GenerateRandomNumber(int min, int max) int
+        +Start() void
+        +Update() void
+    }
+
     MonoBehaviour <|-- Manager
 
     class TMP_Text {
@@ -91,8 +106,6 @@ classDiagram
     Manager  -->  SpriteRenderer : background
     Manager  -->  TMP_Text : infoText
     Manager  -->  TMP_Text : check
-
-    }
 
     Manager  -->  TMP_Text : Number
     Manager  -->  int : randomNum
