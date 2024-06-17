@@ -77,6 +77,7 @@ classDiagram
     }
 
     class SpriteRenderer {
+    +Coler coler
     }
 
     Manager  -->  TMP_Text : Number
