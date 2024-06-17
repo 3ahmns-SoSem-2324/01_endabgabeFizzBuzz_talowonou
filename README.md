@@ -62,11 +62,6 @@ Die Szene, die gestartet werden muss, enthält ein GameObject mit dem angehängt
 Hier ist das UML-Diagramm für die `Manager`-Klasse:
 
 ```mermaid
-## UML-Diagramm
-
-Hier ist das UML-Diagramm für die `Manager`-Klasse:
-
-```mermaid
 classDiagram
     class MonoBehaviour {
     }
